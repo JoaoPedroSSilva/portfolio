@@ -56,6 +56,10 @@ h1 {
     text-align: center;
 }
 
+.section p, .projeto p {
+    text-align: justify;
+}
+
 .projetos-container {
     display: flex;
     flex-wrap: wrap;
