@@ -42,7 +42,6 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    max-width: 1000px;
     margin: 30px auto;
     justify-content: center;
 }
@@ -71,7 +70,7 @@ h1 {
     background: #1c3b64;
     padding: 15px;
     border-radius: 8px;
-    width: 300px;
+    width: auto;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -150,3 +149,6 @@ footer {
         margin: 10px 0;
     }
 }
+
+
+@media screen (max-width: 640px) {[="col-*"]{width: 100%;}}

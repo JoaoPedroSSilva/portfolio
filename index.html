@@ -34,6 +34,45 @@
             <h2>Projetos</h2>
             <div class="projetos-container">
                 <div class="projeto">
+                    <h3>Aplicativo de Controle de Despesas Pessoais</h3>
+                    <p>Aplicativo multiplataforma desenvolvido com .NET MAUI para gerenciar e consolidar despesas pessoais. Permite cadastrar, listar e visualizar os gastos mensais por categoria, além de exibir gráficos simplificados e indicadores de totais. O layout foi adaptado para diferentes tamanhos de tela, oferecendo uma experiência fluida tanto em desktop quanto em dispositivos móveis.</p>
+                    <p>Tecnologias: C#, .NET MAUI, MVVM, XAML.</p>
+                    <a href="https://github.com/JoaoPedroSSilva/controle-despesas" target="_blank">Ver no GitHub</a>
+                    <div class="d-flex gap-3 mt-3">
+                        <img src="img/Tela principal android.png" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalMainPage">
+                        <img src="img/Tela consolidação windows.png" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalConsolidated">
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modalMainPage" tabindex="-1">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Tela Principal Android</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/Tela principal android.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modalConsolidated" tabindex="-1">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Consolidação de Despesas</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/Tela consolidação windows.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projeto">
                     <h3>Conversor XML NF-e para Excel</h3>
                     <p>Ferramenta para converter arquivos XML de Nota Fiscal Eletrônica em planilhas Excel. O usuário anexa os arquivos xml de notas fiscais e envia para a API que extrai os dados, converte e os organiza em uma única tabela Excel formato .xlsx.</p>
                     <p>Tecnologias: C#, ASP.NET, JavaScript, HTML, CSS.</p>
